@@ -10,15 +10,15 @@
 # Requirement
 * We first need to add libraries to PYTHONPATH in './models/research'.
   * $ export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
-* All the files in a folder 'deeplab' needs to overwrite the original data in the following directory:
+* All the files in a folder 'deeplab' need to overwrite the original data in the following directory:
   * './models/research/deeplab'
-* All the files in a folder 'utils' needs to overwrite the original data in the following directory:
+* All the files in a folder 'utils' need to overwrite the original data in the following directory:
   * './models/research/deeplab/utils'
-* All the files in a folder 'datasets' needs to overwrite the original data in the following directory:
+* All the files in a folder 'datasets' need to overwrite the original data in the following directory:
   * './models/research/deeplab/datasets'
-* All the files in a folder 'trainSet' needs to be located in the following directory:
+* All the files in a folder 'trainSet' need to be located in the following directory:
   * './models/research/deeplab/datasets/trainSet'
-* All the files in a folder 'testSet' needs to be located in the following directory:
+* All the files in a folder 'testSet' need to be located in the following directory:
   * './models/research/deeplab/datasets/testSet'
 
 # Customization
