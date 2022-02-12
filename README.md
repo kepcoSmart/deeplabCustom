@@ -20,9 +20,13 @@
   * './models/research/deeplab/datasets/trainSet'
 * All the files in a folder 'testSet' needs to be located in the following directory:
   * './models/research/deeplab/datasets/testSet'
+
+# Customization
 * In deeplabCustom, all the images are divided into a set of sub-images with a fixed size of 224 x 224, from which 60%, 20%, and 20% of the dataset are extracted for training, validation, and testing stages, respectively. Thus, please change the number of images for your custom dataset.
   * In 'deeplabCustomTrain.py': './models/research/deeplab/datasets/data_generator.py'
   * In 'deeplabCustomTest.py': './models/research/deeplab/datasets/data_generator_test.py'
+* The pretrained models can be downloaded (https://github.com/tensorflow/models/blob/master/research/deeplab/g3doc/model_zoo.md), which must be located in the following directory.
+  * ./models/research/deeplab'
 
 # Environment
 'deeplabCustom' is tested on the following environment:
