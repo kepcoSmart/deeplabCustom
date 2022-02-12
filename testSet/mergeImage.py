@@ -28,7 +28,7 @@ labelList = sorted(labelList)
 #        tr.write(text + "\n")
 
 n = 0
-for imageFile in range(0, len(imageList)):
+for imageFile in range(0, len(originalList)):
 #    print(fileList[imageFile])
     fullImage = Image.new('RGB', (imageY*imageSize, imageX*imageSize))
     fullLabel = Image.new('RGB', (imageY*imageSize, imageX*imageSize))
@@ -41,6 +41,6 @@ for imageFile in range(0, len(imageList)):
             n = n+1
     resultImage = Image.blend(fullImage, fullLabel, alpha=0.5)
     resultImage.save('./mergedImages/'+str(imageFile).zfill(5)+'.png')
-    print(str(round((imageFile/len(imageList)*100),2))+'%')
+    print(str(round((imageFile/len(originalList)*100),2))+'%')
 #    fullImage.save('./mergedImages/'+str(imageFile).zfill(5)+'.jpg')
 #    fullLabel.save('./mergedImages/'+str(n).zfill(3)+'.png')
