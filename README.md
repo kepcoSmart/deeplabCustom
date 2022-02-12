@@ -29,7 +29,7 @@
   * ./models/research/deeplab'
 
 # Environment
-'deeplabCustom' is tested on the following environment:
+* 'deeplabCustom' is tested on the following environment:
 Content|Version
 ---|---|
 Ubuntu|18.04.6 LTS|
@@ -37,3 +37,7 @@ Python|3.6.9|
 CUDA|10.0|
 CUDNN|7.6.0|
 Tensorflow|1.15.0|
+
+# Example
+* 'deelabCustom' is used for the semantic segmentation of concrete cracks in a set of images taken by the unmanned aerial vehicle (UAV).
+![Example](https://user-images.githubusercontent.com/99420897/153723508-aaba8d59-7d8f-40a2-baa0-ae0e3efc1368.jpg)
