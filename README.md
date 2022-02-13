@@ -26,7 +26,7 @@
   * In 'deeplabCustomTrain.py': './models/research/deeplab/datasets/data_generator.py'
   * In 'deeplabCustomTest.py': './models/research/deeplab/datasets/data_generator_test.py'
 * The pretrained models can be downloaded (https://github.com/tensorflow/models/blob/master/research/deeplab/g3doc/model_zoo.md), which must be located in the following directory.
-  * ./models/research/deeplab'
+  * './models/research/deeplab'
 
 # Environment
 * 'deeplabCustom' is tested on the following environment:
