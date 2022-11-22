@@ -1,4 +1,4 @@
-## This project was developed by SKKU Smart Construction Lab directed by SH Sim. which was sponsored by KEPCO E&C Smart Convergence Lab.
+## This project was developed by SKKU Smart Construction Lab directed by Professor SH Sim. which was sponsored by KEPCO E&C Smart Convergence Lab.
 
 # 'deeplabCustom'
 * 'deeplabCustom' is designed to perform the semantic segmentation of images based on the Model Garden for TensorFlow (https://github.com/tensorflow/models).
