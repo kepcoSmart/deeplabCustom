@@ -1,4 +1,4 @@
-## 이 프로젝트는 한국전력기술이 자문을 의뢰하여 성균관대 스마트건설 연구실(심성한 교수팀)에서 작성하였습니다 (2021).
+## 이 프로젝트는 한국전력기술의 자문 의뢰로 성균관대 스마트건설 연구실(심성한 교수팀)에서 작성하였습니다 (2021).
 
 # 'deeplabCustom'
 * 'deeplabCustom' is designed to perform the semantic segmentation of images based on the Model Garden for TensorFlow (https://github.com/tensorflow/models).
